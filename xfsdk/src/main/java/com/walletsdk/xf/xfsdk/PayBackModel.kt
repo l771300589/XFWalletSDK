@@ -1,4 +1,4 @@
-package com.walletsdk.xf
+package com.walletsdk.xf.xfsdk
 
 /**
  * 支付返回的数据

@@ -1,15 +1,13 @@
-package com.walletsdk.xf
+package com.walletsdk.xf.xfsdk
 
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
 import android.util.Log
 import android.widget.Toast
 import com.google.gson.Gson
-
 
 class XFPay(private val activity: Activity, private var data: PayModel) {
 

@@ -1,13 +1,10 @@
 @file:Suppress("DEPRECATED_IDENTITY_EQUALS")
-
-package com.walletsdk.xf
+package com.walletsdk.xf.xfsdk
 
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
-import com.google.gson.Gson
 
 @SuppressLint("Registered")
 abstract class BaseXFActivity: AppCompatActivity() {

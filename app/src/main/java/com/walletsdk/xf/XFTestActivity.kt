@@ -5,7 +5,12 @@ package com.walletsdk.xf
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Log
+import com.walletsdk.xf.xfsdk.BaseXFActivity
+import com.walletsdk.xf.xfsdk.PayBackModel
+import com.walletsdk.xf.xfsdk.PayModel
 import com.walletsdk.xf.xfwalletsdk.R
+import com.walletsdk.xf.xfwalletsdk.R.id.home_skip
+import com.walletsdk.xf.xfwalletsdk.R.id.home_value
 import kotlinx.android.synthetic.main.xf_activity_test.*
 
 
