@@ -40,9 +40,9 @@ class XFPay(private val activity: Activity, private var data: PayModel) {
             Toast.makeText(activity, "未安装XF钱包", Toast.LENGTH_SHORT).show()
 //                val uri = Uri.parse("market://details?id=com.tencent.mm")
             // 直接从指定网址下载
-            val uri = Uri.parse("http://dldir1.qq.com/foxmail/weixin521android400.apk")
-            val intent = Intent(Intent.ACTION_VIEW, uri)
-            activity.startActivity(intent)
+//            val uri = Uri.parse("http://dldir1.qq.com/foxmail/weixin521android400.apk")
+//            val intent = Intent(Intent.ACTION_VIEW, uri)
+//            activity.startActivity(intent)
         }
     }
 

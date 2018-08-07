@@ -6,15 +6,15 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Log
 import com.walletsdk.xf.xfwalletsdk.R
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.xf_activity_test.*
 
 
-class MainActivity : BaseXFActivity() {
+class XFTestActivity : BaseXFActivity() {
 
     @SuppressLint("WrongConstant")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.xf_activity_test)
 
 
         home_skip.setOnClickListener {
@@ -55,7 +55,8 @@ class MainActivity : BaseXFActivity() {
                 home_value.text = "失败"
             }
             else -> {
-
+                //其它
+                home_value.text = "其它"
             }
         }
     }
