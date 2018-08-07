@@ -14,7 +14,7 @@ Maven：
 <dependency>
 	<groupId>com.github.lcaifu</groupId>
 	<artifactId>XFWalletSDK</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.3</version>
 </dependency>
 ```
 Gradle：
@@ -27,6 +27,6 @@ allprojects {
 	}
 
 dependencies {
-	        implementation 'com.github.lcaifu:XFWalletSDK:0.0.1'
+	        implementation 'com.github.lcaifu:XFWalletSDK:0.0.3'
 	}
 ```
