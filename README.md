@@ -8,9 +8,9 @@ dependencies {
 ```
 
 ```Java
-	<dependency>
-	    <groupId>com.github.lcaifu</groupId>
-	    <artifactId>XFWalletSDK</artifactId>
-	    <version>0.0.1</version>
-	</dependency>
+<dependency>
+	<groupId>com.github.lcaifu</groupId>
+	<artifactId>XFWalletSDK</artifactId>
+	<version>0.0.1</version>
+</dependency>
 ```
