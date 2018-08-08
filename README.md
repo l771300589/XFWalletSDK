@@ -7,12 +7,12 @@ Maven：
 <dependency>
 	<groupId>com.github.lcaifu</groupId>
 	<artifactId>XFWalletSDK</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.4</version>
 </dependency>
 ```
 Gradle：
 ```Java
-implementation 'com.github.lcaifu:XFWalletSDK:0.0.1'
+implementation 'com.github.lcaifu:XFWalletSDK:0.0.4'
 ```
 ## 使用方法
 1.继承"BaseXFActivity()"类。<br>
@@ -38,7 +38,7 @@ home_skip.setOnClickListener {
 ## PayModel详解
 进行交易时需要传递到XF钱包的参数模型类
 |   属性名  |   字段类型  |  是否必填  |     介绍    |
-| ------------ |:--------------:|:-------------:| ------------:|
+|:------------ |:--------------:|:-------------:| ------------:|
 |   order     |     String     |        否      |    转账类型-单号等类似内容(默认“转账”)    |
 | toAddress|     String     |        是     |  转入地址（收款方） |
 | gwei|     Double |        否      |  矿工单价 |
@@ -47,6 +47,6 @@ home_skip.setOnClickListener {
 | inputData|     String     |        否      |  输入的数据(十六进制) |
 ## PayBackModel详解
 XF钱包返回的数据类
-|   属性名  |   字段类型  |    介绍    |
-| ------------ |:--------------:| ------------:|
+|属性名  |   字段类型  |    介绍    |
+|:------------ |:--------------:| ------------:|
 |   code |     Int  |  0:进行中 1：成功   2：取消    3：失败 |
