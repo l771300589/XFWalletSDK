@@ -38,3 +38,15 @@ home_skip.setOnClickListener {
 ## PayModel详解
 进行交易时需要传递到XF钱包的参数模型类<br>
 |   属性名  |   字段类型  |  是否必填  |     介绍    |
+|:------------ |:--------------:|:-------------:| ------------:|
+|   order     |     String     |        否      |    转账类型-单号等类似内容(默认“转账”)    |
+| toAddress|     String     |        是     |  转入地址（收款方） |
+| gwei|     Double |        否      |  矿工单价 |
+| gasLimit|     Double |        否      |  矿工费(gwei)总数量 |
+| money|     String     |        是     |  转账金额 |
+| inputData|     String     |        否      |  输入的数据(十六进制) |
+## PayBackModel详解
+XF钱包返回的数据类<br>
+| 属性名  |   字段类型  |    介绍    |
+|:------------ |:--------------:| ------------:|
+|   code |     Int  |  0:进行中 1：成功   2：取消    3：失败 |
